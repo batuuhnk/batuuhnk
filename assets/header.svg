@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Batuhan Kılıçlı — Embedded Software Engineer, Defense and Avionics">
+<defs>
+  <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#16213A" stroke-width="1"/></pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="dial"><circle cx="960" cy="190" r="118"/></clipPath>
+  <linearGradient id="fadeR" x1="0" x2="1"><stop offset="0" stop-color="#0A0F1C" stop-opacity="0"/><stop offset="1" stop-color="#0A0F1C"/></linearGradient>
+  <style>
+    .in{opacity:0;animation:in .8s ease-out forwards}
+    .d1{animation-delay:.2s} .d2{animation-delay:.6s} .d3{animation-delay:1s} .d4{animation-delay:1.4s} .d5{animation-delay:1.8s}
+    @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+</defs>
+<rect width="1200" height="380" rx="18" fill="#0A0F1C"/>
+<rect width="1200" height="380" rx="18" fill="url(#g)" opacity=".6"/>
+<rect x="1" y="1" width="1198" height="378" rx="17" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+<!-- corner registration marks -->
+<g stroke="#64748B" stroke-width="2" opacity=".6">
+  <path d="M 24 44 V 24 H 44"/><path d="M 1156 24 H 1176 V 44"/>
+  <path d="M 24 336 V 356 H 44"/><path d="M 1156 356 H 1176 V 336"/>
+</g>
+
+<path d="M 600 96 H 700 L 730 126 H 820" fill="none" stroke="#1E293B" stroke-width="2"/><circle cx="600" cy="96" r="4" fill="#0A0F1C" stroke="#1E293B" stroke-width="2"/><path d="M 600 150 H 690 L 720 120 H 760 L 790 150 H 832" fill="none" stroke="#1E293B" stroke-width="2"/><circle cx="600" cy="150" r="4" fill="#0A0F1C" stroke="#1E293B" stroke-width="2"/><path d="M 600 230 H 700 L 730 260 H 830" fill="none" stroke="#1E293B" stroke-width="2"/><circle cx="600" cy="230" r="4" fill="#0A0F1C" stroke="#1E293B" stroke-width="2"/><path d="M 600 284 H 680 L 710 254 H 780 L 810 284 H 860" fill="none" stroke="#1E293B" stroke-width="2"/><circle cx="600" cy="284" r="4" fill="#0A0F1C" stroke="#1E293B" stroke-width="2"/><path d="M 600 190 H 828" fill="none" stroke="#1E293B" stroke-width="2"/><circle cx="600" cy="190" r="4" fill="#0A0F1C" stroke="#1E293B" stroke-width="2"/>
+<path d="M 600 96 H 700 L 730 126 H 820" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 600" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="26" to="-600" dur="2.40s" begin="0.00s" repeatCount="indefinite"/></path><path d="M 600 150 H 690 L 720 120 H 760 L 790 150 H 832" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 600" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="26" to="-600" dur="2.85s" begin="0.35s" repeatCount="indefinite"/></path><path d="M 600 230 H 700 L 730 260 H 830" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 600" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="26" to="-600" dur="3.30s" begin="0.70s" repeatCount="indefinite"/></path><path d="M 600 284 H 680 L 710 254 H 780 L 810 284 H 860" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 600" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="26" to="-600" dur="3.75s" begin="1.05s" repeatCount="indefinite"/></path><path d="M 600 190 H 828" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="26 600" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="26" to="-600" dur="4.20s" begin="1.40s" repeatCount="indefinite"/></path>
+
+<!-- text block -->
+<g transform="translate(0 24)">
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+  <text class="in d1" x="64" y="98" font-size="15" fill="#22D3EE" letter-spacing="3">// EMBEDDED SOFTWARE ENGINEER</text>
+</g>
+<text class="in d2" x="60" y="166" font-family="'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="62" font-weight="700" fill="#E2E8F0">Batuhan Kılıçlı</text>
+<text class="in d3" x="64" y="214" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#64748B" letter-spacing="0.6">STM32 · ARM CORTEX-M · FREERTOS · SENSOR FUSION · DO-178C</text>
+<g class="in d4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="15">
+  <rect x="64" y="246" width="250" height="34" rx="6" fill="#0F172A" stroke="#1E293B"/>
+  <circle cx="84" cy="263" r="5" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="98" y="268" fill="#34D399">SYS OK</text>
+  <text x="166" y="268" fill="#64748B">uptime 7y+</text>
+  <rect class="cur" x="276" y="254" width="9" height="18" fill="#34D399"/>
+</g>
+
+</g>
+<!-- attitude indicator -->
+<circle cx="960" cy="190" r="152" fill="#0F172A" stroke="#1E293B" stroke-width="2"/>
+<g clip-path="url(#dial)">
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-14 960 190;11 960 190;-6 960 190;16 960 190;-14 960 190" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 -10;0 18;0 4;0 -16;0 -10" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/>
+      <rect x="700" y="-70" width="520" height="260" fill="#1E5A8A"/>
+      <rect x="700" y="190" width="520" height="260" fill="#6B4423"/>
+      <line x1="700" y1="190" x2="1220" y2="190" stroke="#fff" stroke-width="2.5"/>
+      <line x1="930.0" y1="270" x2="990.0" y2="270" stroke="#fff" stroke-width="2" opacity=".85"/><text x="996.0" y="274" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#fff" opacity=".85">20</text><line x1="940.0" y1="230" x2="980.0" y2="230" stroke="#fff" stroke-width="2" opacity=".85"/><text x="986.0" y="234" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#fff" opacity=".85">10</text><line x1="940.0" y1="150" x2="980.0" y2="150" stroke="#fff" stroke-width="2" opacity=".85"/><text x="986.0" y="154" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#fff" opacity=".85">10</text><line x1="930.0" y1="110" x2="990.0" y2="110" stroke="#fff" stroke-width="2" opacity=".85"/><text x="996.0" y="114" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#fff" opacity=".85">20</text><line x1="948" y1="250" x2="972" y2="250" stroke="#fff" stroke-width="1.5" opacity=".6"/><line x1="948" y1="210" x2="972" y2="210" stroke="#fff" stroke-width="1.5" opacity=".6"/><line x1="948" y1="170" x2="972" y2="170" stroke="#fff" stroke-width="1.5" opacity=".6"/><line x1="948" y1="130" x2="972" y2="130" stroke="#fff" stroke-width="1.5" opacity=".6"/>
+    </g>
+  </g>
+</g>
+<circle cx="960" cy="190" r="118" fill="none" stroke="#1E293B" stroke-width="3"/>
+<line x1="852.6" y1="128.0" x2="840.5" y2="121.0" stroke="#E2E8F0" stroke-width="2"/><line x1="872.3" y1="102.3" x2="866.7" y2="96.7" stroke="#E2E8F0" stroke-width="2"/><line x1="898.0" y1="82.6" x2="891.0" y2="70.5" stroke="#E2E8F0" stroke-width="2"/><line x1="917.6" y1="73.5" x2="914.9" y2="66.0" stroke="#E2E8F0" stroke-width="2"/><line x1="938.5" y1="67.9" x2="937.1" y2="60.0" stroke="#E2E8F0" stroke-width="2"/><line x1="960.0" y1="66.0" x2="960.0" y2="52.0" stroke="#E2E8F0" stroke-width="2"/><line x1="981.5" y1="67.9" x2="982.9" y2="60.0" stroke="#E2E8F0" stroke-width="2"/><line x1="1002.4" y1="73.5" x2="1005.1" y2="66.0" stroke="#E2E8F0" stroke-width="2"/><line x1="1022.0" y1="82.6" x2="1029.0" y2="70.5" stroke="#E2E8F0" stroke-width="2"/><line x1="1047.7" y1="102.3" x2="1053.3" y2="96.7" stroke="#E2E8F0" stroke-width="2"/><line x1="1067.4" y1="128.0" x2="1079.5" y2="121.0" stroke="#E2E8F0" stroke-width="2"/>
+<path d="M 960 68 l -8 -14 h 16 z" fill="#F59E0B"/>
+<!-- fixed aircraft symbol -->
+<g stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none">
+  <path d="M 890 190 H 932 L 946 202"/>
+  <path d="M 1030 190 H 988 L 974 202"/>
+</g>
+<circle cx="960" cy="190" r="4" fill="#F59E0B"/>
+<text x="960" y="338" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#64748B" letter-spacing="2">AHRS · ATTITUDE</text>
+</svg>
