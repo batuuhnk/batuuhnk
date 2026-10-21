@@ -80,7 +80,7 @@ const engineer_t batuhan = {
   </tr>
   <tr>
     <td><b>Tools</b></td>
-    <td><img src="https://img.shields.io/badge/Qt-0A0F1C?style=flat-square&logo=qt&logoColor=F59E0B" alt="Qt" /> <img src="https://img.shields.io/badge/Altium_Designer-0A0F1C?style=flat-square&logo=altiumdesigner&logoColor=F59E0B" alt="Altium" /> <img src="https://img.shields.io/badge/NI_TestStand-0A0F1C?style=flat-square" alt="TestStand" /> <img src="https://img.shields.io/badge/Docker-0A0F1C?style=flat-square&logo=docker&logoColor=F59E0B" alt="Docker" /> <img src="https://img.shields.io/badge/Git-0A0F1C?style=flat-square&logo=git&logoColor=F59E0B" alt="Git" /></td>
+    <td><img src="https://img.shields.io/badge/Qt-0A0F1C?style=flat-square&logo=qt&logoColor=F59E0B" alt="Qt" /> <img src="https://img.shields.io/badge/Altium_Designer-0A0F1C?style=flat-square&logo=altiumdesigner&logoColor=F59E0B" alt="Altium" /> <img src="https://img.shields.io/badge/NI_TestStand-0A0F1C?style=flat-square" alt="TestStand" /> <img src="https://img.shields.io/badge/Git-0A0F1C?style=flat-square&logo=git&logoColor=F59E0B" alt="Git" /></td>
   </tr>
   <tr>
     <td><b>Process</b></td>
