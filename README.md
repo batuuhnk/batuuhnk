@@ -111,8 +111,6 @@ const engineer_t batuhan = {
 
 - 🛩️ &nbsp;Studying the **PX4 flight stack** in simulation — uORB, estimators, control loops and failure scenarios
 - 🔧 &nbsp;Bridging **C → modern C++** for flight-software codebases
-- 📚 &nbsp;Writing an open **[embedded systems handbook](https://github.com/batuuhnk/embedded-handbook)** — from Embedded C to DO-178C
-- 📐 &nbsp;Refining a reusable **firmware coding standard** for AI-assisted embedded development
 
 <br />
 
