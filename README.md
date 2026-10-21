@@ -47,7 +47,7 @@ const engineer_t batuhan = {
   <tr>
     <td width="33%" valign="top">
       <h4>🧭 Navigation &amp; sensing</h4>
-      AHRS, IMU, inclinometer and magnetic-compass firmware. Kalman and complementary filters, calibration and noise-shaping pipelines.
+      Inertial sensing and sensor fusion: Kalman and complementary filters, sensor calibration and digital filtering pipelines.
     </td>
     <td width="33%" valign="top">
       <h4>⏱️ Real-time architecture</h4>
@@ -55,7 +55,7 @@ const engineer_t batuhan = {
     </td>
     <td width="33%" valign="top">
       <h4>🧪 Verification &amp; tooling</h4>
-      DO-178C lifecycle artifacts, HIL test rigs, Qt ground-support / calibration tools and TestStand test programs.
+      Requirements-based testing, HIL / SIL rigs, Qt test and calibration tools, DO-178C-style traceability.
     </td>
   </tr>
 </table>
@@ -98,6 +98,7 @@ const engineer_t batuhan = {
   <a href="https://github.com/batuuhnk/cpp-temelleri"><img src="assets/card-cpp.svg" width="49%" alt="cpp-temelleri" /></a>
 </p>
 <p align="center">
+  <a href="https://github.com/batuuhnk/embedded-handbook"><img src="assets/card-handbook.svg" width="49%" alt="embedded-handbook" /></a>
   <img src="assets/card-soon.svg" width="49%" alt="Next project — coming soon" />
 </p>
 
@@ -105,39 +106,18 @@ const engineer_t batuhan = {
 
 <br />
 
-<!-- ====================== 05 · JOURNEY ====================== -->
-<img src="assets/section-05.svg" width="100%" alt="Journey" />
-
-<p align="center">
-  <img src="assets/timeline.svg" width="100%" alt="Career timeline 2018 to present" />
-</p>
-
-<details>
-<summary><b>Product families I've worked on</b></summary>
-<br />
-
-| Domain | Work |
-|:--|:--|
-| **Navigation** | Attitude &amp; heading reference systems, inertial measurement units, two-axis inclinometers, military digital magnetic compass |
-| **Avionics** | Pressure &amp; temperature (static port) system, crash-survivable memory unit |
-| **Weapon systems** | Gun-pod control unit on MIL-STD-1553B — functional test software and HIL validation |
-| **Test program sets** | Test boxes, harness testers and adapter PCBs with TestStand operator interfaces |
-
-</details>
-
-<br />
-
-<!-- ====================== 06 · CURRENTLY ====================== -->
-<img src="assets/section-06.svg" width="100%" alt="Currently" />
+<!-- ====================== 05 · CURRENTLY ====================== -->
+<img src="assets/section-05.svg" width="100%" alt="Currently" />
 
 - 🛩️ &nbsp;Studying the **PX4 flight stack** in simulation — uORB, estimators, control loops and failure scenarios
 - 🔧 &nbsp;Bridging **C → modern C++** for flight-software codebases
+- 📚 &nbsp;Writing an open **[embedded systems handbook](https://github.com/batuuhnk/embedded-handbook)** — from Embedded C to DO-178C
 - 📐 &nbsp;Refining a reusable **firmware coding standard** for AI-assisted embedded development
 
 <br />
 
-<!-- ====================== 07 · CONTACT ====================== -->
-<img src="assets/section-07.svg" width="100%" alt="Get in touch" />
+<!-- ====================== 06 · CONTACT ====================== -->
+<img src="assets/section-06.svg" width="100%" alt="Get in touch" />
 
 Open to conversations about **embedded systems, navigation and avionics software**. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/batuhankilicli) or [email](mailto:batuhankilicli@gmail.com).
 

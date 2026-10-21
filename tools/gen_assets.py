@@ -336,7 +336,6 @@ def footer():
 
 save("header.svg", header())
 save("telemetry.svg", telemetry())
-save("timeline.svg", timeline())
 save("footer.svg", footer())
 
 sections = [
@@ -344,9 +343,8 @@ sections = [
     ("02", "What I build", "FOCUS AREAS"),
     ("03", "Tech stack", "TOOLCHAIN"),
     ("04", "Featured work", "PUBLIC REPOS"),
-    ("05", "Journey", "TIMELINE"),
-    ("06", "Currently", "IN PROGRESS"),
-    ("07", "Get in touch", "CONTACT"),
+    ("05", "Currently", "IN PROGRESS"),
+    ("06", "Get in touch", "CONTACT"),
 ]
 for n, t, s in sections:
     save(f"section-{n}.svg", section(n, t, s))
@@ -359,6 +357,10 @@ save("card-cpp.svg", card("cpp-temelleri",
      "C++ concepts used in PX4, each rebuilt side-by-side",
      "with its plain-C equivalent and memory-level notes.",
      ["C", "C++17", "OOP", "templates"], "C++", "#F34B7D", CYAN, "ACTIVE"))
+save("card-handbook.svg", card("embedded-handbook",
+     "Embedded C, RTOS, serial buses, MIL-STD-1553, sensor",
+     "fusion, firmware architecture and DO-178C in 7 chapters.",
+     ["C", "RTOS", "1553", "DO-178C"], "Markdown", "#083FA1", AMBER, "NEW"))
 save("card-soon.svg", card("next project",
      "Next open-source embedded project is in the works:",
      "bare-metal drivers, RTOS architecture, test tooling.",
