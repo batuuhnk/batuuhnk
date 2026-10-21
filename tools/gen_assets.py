@@ -336,6 +336,7 @@ def footer():
 
 save("header.svg", header())
 save("telemetry.svg", telemetry())
+save("timeline.svg", timeline())
 save("footer.svg", footer())
 
 sections = [
@@ -343,8 +344,9 @@ sections = [
     ("02", "What I build", "FOCUS AREAS"),
     ("03", "Tech stack", "TOOLCHAIN"),
     ("04", "Featured work", "PUBLIC REPOS"),
-    ("05", "Currently", "IN PROGRESS"),
-    ("06", "Get in touch", "CONTACT"),
+    ("05", "Journey", "TIMELINE"),
+    ("06", "Currently", "IN PROGRESS"),
+    ("07", "Get in touch", "CONTACT"),
 ]
 for n, t, s in sections:
     save(f"section-{n}.svg", section(n, t, s))

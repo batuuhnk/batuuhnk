@@ -106,16 +106,25 @@ const engineer_t batuhan = {
 
 <br />
 
-<!-- ====================== 05 · CURRENTLY ====================== -->
-<img src="assets/section-05.svg" width="100%" alt="Currently" />
+<!-- ====================== 05 · JOURNEY ====================== -->
+<img src="assets/section-05.svg" width="100%" alt="Journey" />
+
+<p align="center">
+  <img src="assets/timeline.svg" width="100%" alt="Career timeline 2018 to present" />
+</p>
+
+<br />
+
+<!-- ====================== 06 · CURRENTLY ====================== -->
+<img src="assets/section-06.svg" width="100%" alt="Currently" />
 
 - 🛩️ &nbsp;Studying the **PX4 flight stack** in simulation — uORB, estimators, control loops and failure scenarios
 - 🔧 &nbsp;Bridging **C → modern C++** for flight-software codebases
 
 <br />
 
-<!-- ====================== 06 · CONTACT ====================== -->
-<img src="assets/section-06.svg" width="100%" alt="Get in touch" />
+<!-- ====================== 07 · CONTACT ====================== -->
+<img src="assets/section-07.svg" width="100%" alt="Get in touch" />
 
 Open to conversations about **embedded systems, navigation and avionics software**. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/batuhankilicli) or [email](mailto:batuhankilicli@gmail.com).
 

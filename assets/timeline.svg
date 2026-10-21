@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Career timeline 2018 to present">
+<rect width="1200" height="250" rx="16" fill="#0A0F1C"/>
+<rect x="1" y="1" width="1198" height="248" rx="15" fill="none" stroke="#1E293B" stroke-width="2"/>
+<line x1="60" y1="125" x2="1140" y2="125" stroke="#1E293B" stroke-width="2"/>
+<line x1="114.0" y1="112" x2="114.0" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="114.0" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2019</text><line x1="243.6" y1="112" x2="243.6" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="243.6" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2020</text><line x1="373.2" y1="112" x2="373.2" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="373.2" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2021</text><line x1="502.8" y1="112" x2="502.8" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="502.8" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2022</text><line x1="632.4" y1="112" x2="632.4" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="632.4" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2023</text><line x1="762.0" y1="112" x2="762.0" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="762.0" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2024</text><line x1="891.6" y1="112" x2="891.6" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="891.6" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2025</text><line x1="1021.2" y1="112" x2="1021.2" y2="138" stroke="#1E293B" stroke-width="1.5"/><text x="1021.2" y="230" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#64748B">2026</text>
+<rect x="60.0" y="118" width="212.0" height="14" rx="7" fill="#64748B" opacity=".9" transform="scale(1 1)">
+  <animate attributeName="width" from="0" to="212.0" dur=".8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 0 .2 1"/>
+  <set attributeName="width" to="0" begin="0s"/>
+</rect><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="0.6s" fill="freeze"/>
+  <line x1="62.0" y1="94" x2="62.0" y2="118" stroke="#64748B" stroke-width="1.5" opacity=".6"/>
+  <text x="60.0" y="68" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" font-weight="700" fill="#E2E8F0">INTERNSHIPS</text>
+  <text x="60.0" y="88" text-anchor="start" font-family="'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#94A3B8">Anova R&amp;D · Kuasoft · Else Enerji</text>
+</g><rect x="276.0" y="118" width="644.0" height="14" rx="7" fill="#22D3EE" opacity=".9" transform="scale(1 1)">
+  <animate attributeName="width" from="0" to="644.0" dur=".8s" begin="1.0s" fill="freeze" calcMode="spline" keySplines=".2 0 .2 1"/>
+  <set attributeName="width" to="0" begin="0s"/>
+</rect><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="1.3s" fill="freeze"/>
+  <line x1="278.0" y1="136" x2="278.0" y2="146" stroke="#22D3EE" stroke-width="1.5" opacity=".6"/>
+  <text x="276.0" y="170" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" font-weight="700" fill="#E2E8F0">ANOVA R&amp;D TECHNOLOGIES</text>
+  <text x="276.0" y="190" text-anchor="start" font-family="'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#94A3B8">Candidate → System → Embedded SW Engineer</text>
+</g><rect x="924.0" y="118" width="195.8" height="14" rx="7" fill="#34D399" opacity=".9" transform="scale(1 1)">
+  <animate attributeName="width" from="0" to="195.8" dur=".8s" begin="1.7s" fill="freeze" calcMode="spline" keySplines=".2 0 .2 1"/>
+  <set attributeName="width" to="0" begin="0s"/>
+</rect><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".5s" begin="2.0s" fill="freeze"/>
+  <line x1="926.0" y1="94" x2="926.0" y2="118" stroke="#34D399" stroke-width="1.5" opacity=".6"/>
+  <text x="1133.8" y="68" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" font-weight="700" fill="#E2E8F0">HARPAX SYSTEM TECH.</text>
+  <text x="1133.8" y="88" text-anchor="end" font-family="'Segoe UI','Inter',-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#94A3B8">Embedded SW Engineer</text>
+</g>
+<circle cx="1123.8" cy="125" r="7" fill="#34D399"/>
+<circle cx="1123.8" cy="125" r="7" fill="none" stroke="#34D399" stroke-width="2">
+  <animate attributeName="r" values="7;20" dur="1.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="1139.8" y="230" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#34D399">NOW</text>
+</svg>
