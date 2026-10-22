@@ -113,6 +113,10 @@ const engineer_t batuhan = {
   <img src="assets/timeline.svg" width="100%" alt="Career timeline 2018 to present" />
 </p>
 
+<p align="center">
+  <a href="products.md"><img src="https://img.shields.io/badge/Products_I%27ve_worked_on-View_%E2%86%92-22D3EE?style=for-the-badge&labelColor=0A0F1C" alt="Products I've worked on" /></a>
+</p>
+
 <br />
 
 <!-- ====================== 06 · CURRENTLY ====================== -->
