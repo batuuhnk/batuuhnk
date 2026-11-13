@@ -72,7 +72,7 @@ const engineer_t batuhan = {
   </tr>
   <tr>
     <td><b>MCU &amp; RTOS</b></td>
-    <td><img src="https://img.shields.io/badge/STM32-0A0F1C?style=flat-square&logo=stmicroelectronics&logoColor=34D399" alt="STM32" /> <img src="https://img.shields.io/badge/ARM_Cortex--M-0A0F1C?style=flat-square&logo=arm&logoColor=34D399" alt="ARM" /> <img src="https://img.shields.io/badge/TI_TMS-0A0F1C?style=flat-square&logo=texasinstruments&logoColor=34D399" alt="TI" /> <img src="https://img.shields.io/badge/FreeRTOS-0A0F1C?style=flat-square&logo=freertos&logoColor=34D399" alt="FreeRTOS" /> <img src="https://img.shields.io/badge/PREEMPT__RT_Linux-0A0F1C?style=flat-square&logo=linux&logoColor=34D399" alt="Linux" /></td>
+    <td><img src="https://img.shields.io/badge/STM32-0A0F1C?style=flat-square&logo=stmicroelectronics&logoColor=34D399" alt="STM32" /> <img src="https://img.shields.io/badge/ARM_Cortex--M-0A0F1C?style=flat-square&logo=arm&logoColor=34D399" alt="ARM" /> <img src="https://img.shields.io/badge/TI_TMS-0A0F1C?style=flat-square&logo=texasinstruments&logoColor=34D399" alt="TI" /> <img src="https://img.shields.io/badge/FreeRTOS-0A0F1C?style=flat-square&logo=freertos&logoColor=34D399" alt="FreeRTOS" /></td>
   </tr>
   <tr>
     <td><b>Buses</b></td>
@@ -94,12 +94,12 @@ const engineer_t batuhan = {
 <img src="assets/section-04.svg" width="100%" alt="Featured work" />
 
 <p align="center">
+  <a href="https://github.com/batuuhnk/cortex-m-sensor-fusion-benchmark"><img src="assets/card-benchmark.svg" width="49%" alt="cortex-m-sensor-fusion-benchmark" /></a>
   <a href="https://github.com/batuuhnk/px4-sitl-learning"><img src="assets/card-px4.svg" width="49%" alt="px4-sitl-learning" /></a>
-  <a href="https://github.com/batuuhnk/cpp-temelleri"><img src="assets/card-cpp.svg" width="49%" alt="cpp-temelleri" /></a>
 </p>
 <p align="center">
+  <a href="https://github.com/batuuhnk/cpp-temelleri"><img src="assets/card-cpp.svg" width="49%" alt="cpp-temelleri" /></a>
   <a href="https://github.com/batuuhnk/embedded-handbook"><img src="assets/card-handbook.svg" width="49%" alt="embedded-handbook" /></a>
-  <img src="assets/card-soon.svg" width="49%" alt="Next project — coming soon" />
 </p>
 
 <!-- To add a project: copy a card SVG in /assets, edit its text, and add an <a><img></a> line above. -->
@@ -124,6 +124,7 @@ const engineer_t batuhan = {
 
 - 🛩️ &nbsp;Studying the **PX4 flight stack** in simulation — uORB, estimators, control loops and failure scenarios
 - 🔧 &nbsp;Bridging **C → modern C++** for flight-software codebases
+- 📊 &nbsp;Benchmarking **sensor-fusion workloads** on Cortex-M to size processors before hardware exists
 
 <br />
 

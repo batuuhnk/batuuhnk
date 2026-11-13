@@ -352,8 +352,8 @@ for n, t, s in sections:
     save(f"section-{n}.svg", section(n, t, s))
 
 save("card-px4.svg", card("px4-sitl-learning",
-     "PX4 flight stack in SITL: uORB architecture, control loops,",
-     "GPS-loss scenario and ULog flight-log analysis.",
+     "PX4 in SITL: uORB, a custom work-queue module, a fault-",
+     "injectable baro driver, GPS/baro failure log analysis.",
      ["PX4", "SITL", "uORB", "ULog"], "Python", "#3572A5", GREEN, "ACTIVE"))
 save("card-cpp.svg", card("cpp-temelleri",
      "C++ concepts used in PX4, each rebuilt side-by-side",
@@ -361,9 +361,9 @@ save("card-cpp.svg", card("cpp-temelleri",
      ["C", "C++17", "OOP", "templates"], "C++", "#F34B7D", CYAN, "ACTIVE"))
 save("card-handbook.svg", card("embedded-handbook",
      "Embedded C, RTOS, serial buses, MIL-STD-1553, sensor",
-     "fusion, firmware architecture and DO-178C in 7 chapters.",
-     ["C", "RTOS", "1553", "DO-178C"], "Markdown", "#083FA1", AMBER, "NEW"))
-save("card-soon.svg", card("next project",
-     "Next open-source embedded project is in the works:",
-     "bare-metal drivers, RTOS architecture, test tooling.",
-     ["STM32", "FreeRTOS"], "", "", MUTED, "COMING SOON", placeholder=True))
+     "fusion, architecture, DO-178C, CI and debug: 19 chapters.",
+     ["C", "RTOS", "1553", "DO-178C"], "Markdown", "#083FA1", AMBER, "ACTIVE"))
+save("card-benchmark.svg", card("cortex-m-sensor-fusion-benchmark",
+     "Choosing a processor before the hardware exists: Kalman",
+     "loads timed on a Cortex-M33, projected onto M7 and DSP.",
+     ["C", "Cortex-M", "FreeRTOS", "SystemView"], "C", "#555555", GREEN, "NEW"))
